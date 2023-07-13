@@ -31,7 +31,7 @@
 	
 	<distributionManagement>
 		 <snapshotRepository>
-		    <id>nexusRepo</id>
+		    <id>abcRepo</id>
 		    <url>http://18.183.221.98:8081/repository/surya-snap/</url>
 		 </snapshotRepository>
 		

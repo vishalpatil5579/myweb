@@ -36,7 +36,7 @@
 		 </snapshotRepository>
 		
 		<repository>
-		    <id>nexusRepo</id>
+		    <id>abcRepo</id>
 		    <url>http://18.183.221.98:8081/repository/vishal-releases/</url>
 		</repository>
   	</distributionManagement>

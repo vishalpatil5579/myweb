@@ -32,12 +32,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexusRepo</id>
-		    <url>http://52.192.61.14:8081/repository/sample-snapshots/</url>
+		    <url>http://18.183.221.98:8081/repository/kishore-snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexusRepo</id>
-		    <url>http://52.192.61.14:8081/repository/sample-releases/</url>
+		    <url>http://18.183.221.98:8081/repository/vishal-releases/</url>
 		</repository>
   	</distributionManagement>
 	

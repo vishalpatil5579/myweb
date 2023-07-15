@@ -31,10 +31,10 @@ pipeline{
                   ], 
                   credentialsId: 'nexus3', 
                   groupId: 'in.javahome', 
-                  nexusUrl: '172.31.2.14:8081', 
+                  nexusUrl: '18.183.186.160:8081', 
                   nexusVersion: 'nexus3', 
                   protocol: 'http', 
-                  repository: 'sample-releases', 
+                  repository: 'vishal-release', 
                   version: '8.2.0'  
               }
             }

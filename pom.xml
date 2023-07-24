@@ -10,7 +10,7 @@
 	
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
-		<sonar.host.url>http://172.31.36.43:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.40.1:9000/</sonar.host.url>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
                 <maven.compiler.source>1.7</maven.compiler.source>
                 <maven.compiler.target>1.7</maven.compiler.target>
@@ -31,13 +31,13 @@
 	
 	<distributionManagement>
 		 <snapshotRepository>
-		    <id>abcRepo</id>
+		    <id>nexusRepo</id>
 		    <url>http://18.183.186.160:8081/repository/vishal-snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>abcRepo</id>
-		    <url>http://18.183.212.187:8081/repository/vishal-releases/</url>
+		    <url>http://13.231.207.244:8081/repository/vishal-releases/</url>
 		</repository>
   	</distributionManagement>
 	
